@@ -39,7 +39,7 @@ format:
 
 [📦 Paquete](https://eveliacoss.github.io/GeneExprLupusMx/){.boton .blanco} [✨ Shiny app](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.boton .blanco}
 
-::: {.qr-portada}
+::: {.qr-texto}
 ::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx_LatinR2026_presentacion/GeneExprLupusMx_LatinR2026.html" data-size="165"}
 :::
 
@@ -164,21 +164,23 @@ Otras instituciones · colaboradores ·<br>[**nosotros mismos**]{.fragment fragm
 ::: {.fragment fragment-index=2 .etiqueta .azul .medio}
 **En GeneExprLupusMx**
 
-- **Qué incluye:** scripts en `data-raw/`, *checkpoints* de cada análisis, versiones fijas (g:Profiler e113) y un DOI por versión
+- **Qué incluye:** scripts en `data-raw/`, *checkpoints* de cada análisis, versiones archivadas (g:Profiler e113) y un DOI por versión
 - **Para quién:** estudiantes y docentes de bioinformática, inmunología y ciencias biomédicas
 - **La idea:** que cualquiera reproduzca las figuras del artículo, paso a paso y en su idioma
 :::
 :::
 
 ::: {.column width="38%"}
-![](img/codigo_3_anios.png){.fragment fragment-index=1 fig-alt="Cómic: al leer tu código de hace 3 años, el personaje saca su cerebro para prenderle fuego" width="100%"}
+<br>
+
+![](img/codigo_3_anios.png){.fragment fragment-index=1 fig-alt="Cómic: al leer el código que escribiste hace 3 años, el personaje se saca el cerebro y le echa gasolina" width="100%"}
 :::
 :::
 
 ::: {.notes}
 (1:00) Reproducibilidad computacional: que otra persona ejecute nuestro código y obtenga los mismos resultados. Esa "otra persona" puede ser alguien de otra institución, un colaborador... y casi siempre, nosotros mismos dentro de unos años.
 Clic: el cómic. Risa.
-Clic: cómo lo resuelve el paquete. Cada objeto se regenera con los scripts de data-raw/, hay checkpoints entre lecciones para no empezar de cero, las versiones de las herramientas están fijas (g:Profiler e113) y cada versión del paquete tiene DOI en Zenodo.
+Clic: cómo lo resuelve el paquete. Cada objeto se regenera con los scripts de data-raw/, hay checkpoints entre lecciones para no empezar de cero, se usan versiones archivadas de las herramientas (g:Profiler e113) y cada versión del paquete tiene DOI en Zenodo.
 Va dirigido a estudiantes y docentes de bioinformática, inmunología y ciencias biomédicas. La idea: que cualquiera reproduzca las figuras del artículo, paso a paso, en español o en inglés.
 :::
 
@@ -206,6 +208,8 @@ Va dirigido a estudiantes y docentes de bioinformática, inmunología y ciencias
 :::
 
 ::: {.column width="60%"}
+<br>
+
 ::: {.cifras}
 ::: {.cifra}
 [33]{.n}
@@ -281,7 +285,7 @@ El paquete es ligero: los tres objetos más grandes (filtered_txi, dds, zscore_m
 No hace falta correr DESeq2 para empezar: los resultados intermedios (de_results, go_results...) ya vienen en el paquete.
 :::
 
-## Del FASTQ al hallazgo, en una sola imagen {.centrado}
+## Un estudio real, completo y listo para enseñar {.centrado}
 
 [![](img/overview_promo.png){fig-alt="Infografía de GeneExprLupusMx: datos, flujo de análisis, hallazgos y lecciones" width="88%"}](https://eveliacoss.github.io/GeneExprLupusMx/)
 
@@ -293,6 +297,7 @@ No hace falta correr DESeq2 para empezar: los resultados intermedios (de_results
 
 ::: {.columns}
 ::: {.column width="60%"}
+::: {.ruta}
 1. [Conociendo a las participantes](https://eveliacoss.github.io/GeneExprLupusMx/articles/clinical_es.html)
 2. [De las cuentas de RNA-seq a la exploración](https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_RNAseq_es.html)
 3. [Genes diferencialmente expresados](https://eveliacoss.github.io/GeneExprLupusMx/articles/l3_DEGs_es.html)
@@ -301,13 +306,29 @@ No hace falta correr DESeq2 para empezar: los resultados intermedios (de_results
 6. [La firma de las tolDC](https://eveliacoss.github.io/GeneExprLupusMx/articles/l6_DEGs_tolDcs_es.html)
 7. [¿Se diferencian igual pacientes y controles?](https://eveliacoss.github.io/GeneExprLupusMx/articles/l7_DEGs_between_groups_es.html)
 :::
+:::
 
 ::: {.column width="40%"}
-[🇲🇽 Empieza aquí](https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_es.html){.boton}
+::: {.botones}
+[🇲🇽 Empieza aquí](https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_es.html){.boton} [🇺🇸 Start here](https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_en.html){.boton}
+:::
 
-[🇺🇸 Start here](https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_en.html){.boton}
+![](img/chibi_lecciones.png){.chibi-lecciones fig-alt="Evelia en versión chibi leyendo, junto a libros de RNA-seq, DEGs, GO, Inmunología y SLE"}
 
-::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx/"}
+::: {.qr-texto}
+::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx/" data-size="120"}
+:::
+```{=html}
+<svg class="flecha-curva" viewBox="0 0 60 60" aria-hidden="true">
+  <defs><marker id="punta" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3D3F8F"/></marker></defs>
+  <path d="M58 22 C 44 2, 20 4, 6 30" fill="none" stroke="#3D3F8F" stroke-width="3" stroke-linecap="round" marker-end="url(#punta)"/>
+</svg>
+```
+::: {.qr-lado}
+Escanea y abre el sitio del paquete
+
+![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx" width="110"}
+:::
 :::
 
 ::: {.etiqueta .pequeno}
@@ -324,15 +345,15 @@ Cada lección **reproduce una figura del artículo**, paso a paso y con explicac
 
 ![](img/lesson7_final_es.png){fig-alt="Resumen de los resultados de las 7 lecciones" width="92%"}
 
-::: {.fragment .etiqueta .azul .medio}
-**Conclusión:** pacientes y controles se diferencian de forma similar; las diferencias están en la **firma de interferón** de los monocitos y en la **síntesis de colesterol** de las tolDC.
+::: {.fragment .etiqueta .medio}
+**En las 7 lecciones** reproduces los **resultados** del artículo, descubres las **funciones biológicas** que cambian en el lupus y practicas con **retos** en cada una.
 :::
 
 ::: {.notes}
-(0:45) El mensaje biológico final que se obtiene completando la ruta: la diferenciación es parecida en pacientes y controles; lo que cambia es la firma de interferón (que las pacientes traen desde los monocitos y se pierde al diferenciarse) y el metabolismo del colesterol en las tolDC, que se induce menos en lupus. Ciencia real, reproducida por quien aprende.
+(0:45) Al terminar la ruta se reproducen los resultados del artículo, se interpretan las funciones biológicas (enriquecimiento con g:Profiler) y cada lección incluye retos con su solución para practicar. El mensaje biológico: la diferenciación es parecida en pacientes y controles; lo que cambia es la firma de interferón (que las pacientes traen desde los monocitos y se pierde al diferenciarse) y el metabolismo del colesterol en las tolDC, que se induce menos en lupus. Ciencia real, reproducida por quien aprende.
 :::
 
-## ¿Y si no programas en R? 🤷🏽‍♀️ {background-color="#3D3F8F" .oscura}
+## ¿Y si no programas en R? {background-color="#3D3F8F" .oscura}
 
 ::: {.columns}
 ::: {.column width="45%"}
@@ -346,9 +367,11 @@ Los mismos datos, **sin escribir una línea de código**.
 
 <br>
 
+::: {.centrado}
 [▶ Abrir la app](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.boton .amarillo}
 
 ::: {.qr data-url="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/"}
+:::
 :::
 :::
 :::
@@ -361,17 +384,17 @@ Los mismos datos, **sin escribir una línea de código**.
 
 ::: {.columns}
 ::: {.column width="42%" .medio}
-- **Participantes:** edad, diagnóstico, tratamiento
-- **Exploración:** PCA, expresión de un gen, *heatmaps*
-- **Expresión diferencial:** 9 comparaciones, *volcano plots*
-- **Funciones biológicas:** *Manhattan* y *dot plots*
+- **Participantes:** compara controles y pacientes
+- **Exploración:** agrupa muestras y busca genes
+- **Expresión diferencial:** 9 comparaciones interpretadas
+- **Funciones biológicas:** procesos que cambian
 - **Descargas:** tablas en CSV y figuras en PNG
 - **Aprende:** cada gráfica enlaza a su lección
 
 ![](img/chibi_reading.png){.chibi fig-alt="Chibi de Evelia leyendo un libro" width="55%"}
 :::
 
-::: {.column width="58%"}
+::: {.column width="58%" .centrado}
 [![](img/captura_deg_app.png){.captura fig-alt="Captura de la sección de expresión diferencial de la app: volcano plot y número de DEG por comparación" width="100%"}](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/)
 :::
 :::
@@ -390,6 +413,10 @@ Los mismos datos, **sin escribir una línea de código**.
 - [DOI 10.5281/zenodo.23751369](https://doi.org/10.5281/zenodo.23751369)
 - [Código en GitHub](https://github.com/EveliaCoss/GeneExprLupusMx)
 - Siguiendo las guías de [rOpenSci](https://ropensci.org/)
+
+::: {.centrado}
+[![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx" width="30%"}](https://eveliacoss.github.io/GeneExprLupusMx/)
+:::
 :::
 
 ::: {.column width="50%"}
@@ -415,7 +442,7 @@ FAIR: datos localizables, accesibles, interoperables y reutilizables. El lema "t
 
 ## ¿Cómo puedes sumarte? 🙌 {.centrado}
 
-![](img/sumate.png){fig-alt="Ilustración: úsalo en tus clases, reporta errores o ideas en GitHub Issues, comparte la app con quien no programa y replica la idea con datos de tu país. Los datos biomédicos de Latinoamérica también pueden ser visibles, reutilizables y enseñables." width="80%"}
+![](img/sumate.png){fig-alt="Ilustración: úsalo en tus clases de bioinformática, inmunología o estadística; reporta errores o ideas en GitHub Issues; comparte la app con tu comunidad y replica el análisis con datos de tu país y de Latinoamérica. Explora, analiza y reutiliza datos de expresión génica en lupus (SLE) en Latinoamérica." width="80%"}
 
 ::: {.notes}
 (0:45) Llamado a la acción. El mensaje que quiero que se lleven: hagamos paquetes de datos de nuestra región.

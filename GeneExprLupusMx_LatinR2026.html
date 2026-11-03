@@ -97,7 +97,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="GeneExprLupusMx_LatinR2026_files/libs/revealjs/dist/theme/quarto-aa8d078eccbaeb8eba6547a6154cdd7c.css">
+  <link rel="stylesheet" href="GeneExprLupusMx_LatinR2026_files/libs/revealjs/dist/theme/quarto-66416d3e2a8c617c8825c5a6af5e185e.css">
   <link href="GeneExprLupusMx_LatinR2026_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="GeneExprLupusMx_LatinR2026_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="GeneExprLupusMx_LatinR2026_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -210,7 +210,7 @@
 </section>
 <h4>Datos transcriptómicos de mujeres mexicanas con lupus, un paquete de R y una Shiny app para aprender, explorar y reutilizar</h4>
 <p><a href="https://eveliacoss.github.io/GeneExprLupusMx/" class="boton blanco">📦 Paquete</a> <a href="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/" class="boton blanco">✨ Shiny app</a></p>
-<div class="qr-portada">
+<div class="qr-texto">
 <div class="qr" data-url="https://eveliacoss.github.io/GeneExprLupusMx_LatinR2026_presentacion/GeneExprLupusMx_LatinR2026.html" data-size="165">
 
 </div>
@@ -336,16 +336,17 @@
 <div class="fragment etiqueta azul medio" data-fragment-index="2">
 <p><strong>En GeneExprLupusMx</strong></p>
 <ul>
-<li><strong>Qué incluye:</strong> scripts en <code>data-raw/</code>, <em>checkpoints</em> de cada análisis, versiones fijas (g:Profiler e113) y un DOI por versión</li>
+<li><strong>Qué incluye:</strong> scripts en <code>data-raw/</code>, <em>checkpoints</em> de cada análisis, versiones archivadas (g:Profiler e113) y un DOI por versión</li>
 <li><strong>Para quién:</strong> estudiantes y docentes de bioinformática, inmunología y ciencias biomédicas</li>
 <li><strong>La idea:</strong> que cualquiera reproduzca las figuras del artículo, paso a paso y en su idioma</li>
 </ul>
 </div>
 </div><div class="column" style="width:38%;">
-<p><img data-src="img/codigo_3_anios.png" class="fragment" style="width:100.0%" data-fragment-index="1" alt="Cómic: al leer tu código de hace 3 años, el personaje saca su cerebro para prenderle fuego"></p>
+<p><br></p>
+<p><img data-src="img/codigo_3_anios.png" class="fragment" style="width:100.0%" data-fragment-index="1" alt="Cómic: al leer el código que escribiste hace 3 años, el personaje se saca el cerebro y le echa gasolina"></p>
 </div></div>
 <aside class="notes">
-<p>(1:00) Reproducibilidad computacional: que otra persona ejecute nuestro código y obtenga los mismos resultados. Esa “otra persona” puede ser alguien de otra institución, un colaborador… y casi siempre, nosotros mismos dentro de unos años. Clic: el cómic. Risa. Clic: cómo lo resuelve el paquete. Cada objeto se regenera con los scripts de data-raw/, hay checkpoints entre lecciones para no empezar de cero, las versiones de las herramientas están fijas (g:Profiler e113) y cada versión del paquete tiene DOI en Zenodo. Va dirigido a estudiantes y docentes de bioinformática, inmunología y ciencias biomédicas. La idea: que cualquiera reproduzca las figuras del artículo, paso a paso, en español o en inglés.</p>
+<p>(1:00) Reproducibilidad computacional: que otra persona ejecute nuestro código y obtenga los mismos resultados. Esa “otra persona” puede ser alguien de otra institución, un colaborador… y casi siempre, nosotros mismos dentro de unos años. Clic: el cómic. Risa. Clic: cómo lo resuelve el paquete. Cada objeto se regenera con los scripts de data-raw/, hay checkpoints entre lecciones para no empezar de cero, se usan versiones archivadas de las herramientas (g:Profiler e113) y cada versión del paquete tiene DOI en Zenodo. Va dirigido a estudiantes y docentes de bioinformática, inmunología y ciencias biomédicas. La idea: que cualquiera reproduzca las figuras del artículo, paso a paso, en español o en inglés.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -376,6 +377,7 @@
 <p><strong>moDC:</strong> dendrítica derivada de monocito<br><strong>tolDC:</strong> dendrítica tolerogénica</p>
 </div>
 </div><div class="column" style="width:60%;">
+<p><br></p>
 <div class="cifras">
 <div class="cifra">
 <p><span class="n">33</span> <span class="t">mujeres mexicanas<br>10 controles · 23 con lupus</span></p>
@@ -480,7 +482,7 @@
       }</style></aside>
 </section>
 <section class="slide level2 centrado">
-<h2>Del FASTQ al hallazgo, en una sola imagen</h2>
+<h2>Un estudio real, completo y listo para enseñar</h2>
 <p><a href="https://eveliacoss.github.io/GeneExprLupusMx/"><img data-src="img/overview_promo.png" style="width:88.0%" alt="Infografía de GeneExprLupusMx: datos, flujo de análisis, hallazgos y lecciones"></a></p>
 <aside class="notes">
 <p>(0:45) Señalar: datos a la izquierda, hallazgos al centro, flujo de procesamiento y ruta de aprendizaje a la derecha.</p>
@@ -500,6 +502,7 @@
 <h2>7 lecciones, paso a paso 📚</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<div class="ruta">
 <ol type="1">
 <li><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/clinical_es.html">Conociendo a las participantes</a></li>
 <li><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_RNAseq_es.html">De las cuentas de RNA-seq a la exploración</a></li>
@@ -509,11 +512,24 @@
 <li><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/l6_DEGs_tolDcs_es.html">La firma de las tolDC</a></li>
 <li><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/l7_DEGs_between_groups_es.html">¿Se diferencian igual pacientes y controles?</a></li>
 </ol>
+</div>
 </div><div class="column" style="width:40%;">
-<p><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_es.html" class="boton">🇲🇽 Empieza aquí</a></p>
-<p><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_en.html" class="boton">🇺🇸 Start here</a></p>
-<div class="qr" data-url="https://eveliacoss.github.io/GeneExprLupusMx/">
+<div class="botones">
+<p><a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_es.html" class="boton">🇲🇽 Empieza aquí</a> <a href="https://eveliacoss.github.io/GeneExprLupusMx/articles/intro_en.html" class="boton">🇺🇸 Start here</a></p>
+</div>
+<p><img data-src="img/chibi_lecciones.png" class="chibi-lecciones" alt="Evelia en versión chibi leyendo, junto a libros de RNA-seq, DEGs, GO, Inmunología y SLE"></p>
+<div class="qr-texto">
+<div class="qr" data-url="https://eveliacoss.github.io/GeneExprLupusMx/" data-size="120">
 
+</div>
+<svg class="flecha-curva" viewbox="0 0 60 60" aria-hidden="true">
+  <defs><marker id="punta" viewbox="0 0 10 10" refx="5" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3D3F8F"></path></marker></defs>
+  <path d="M58 22 C 44 2, 20 4, 6 30" fill="none" stroke="#3D3F8F" stroke-width="3" stroke-linecap="round" marker-end="url(#punta)"></path>
+</svg>
+<div class="qr-lado">
+<p>Escanea y abre el sitio del paquete</p>
+<p><img data-src="img/logo_cartoon_3_ajolote.png" alt="Logo de GeneExprLupusMx" width="110"></p>
+</div>
 </div>
 <div class="etiqueta pequeno">
 <p>Cada lección <strong>reproduce una figura del artículo</strong>, paso a paso y con explicación biológica.</p>
@@ -536,11 +552,11 @@
 <section class="slide level2 centrado">
 <h2>✅ Al terminar la ruta…</h2>
 
-<img data-src="img/lesson7_final_es.png" style="width:92.0%" alt="Resumen de los resultados de las 7 lecciones" class="r-stretch"><div class="fragment etiqueta azul medio">
-<p><strong>Conclusión:</strong> pacientes y controles se diferencian de forma similar; las diferencias están en la <strong>firma de interferón</strong> de los monocitos y en la <strong>síntesis de colesterol</strong> de las tolDC.</p>
+<img data-src="img/lesson7_final_es.png" style="width:92.0%" alt="Resumen de los resultados de las 7 lecciones" class="r-stretch"><div class="fragment etiqueta medio">
+<p><strong>En las 7 lecciones</strong> reproduces los <strong>resultados</strong> del artículo, descubres las <strong>funciones biológicas</strong> que cambian en el lupus y practicas con <strong>retos</strong> en cada una.</p>
 </div>
 <aside class="notes">
-<p>(0:45) El mensaje biológico final que se obtiene completando la ruta: la diferenciación es parecida en pacientes y controles; lo que cambia es la firma de interferón (que las pacientes traen desde los monocitos y se pierde al diferenciarse) y el metabolismo del colesterol en las tolDC, que se induce menos en lupus. Ciencia real, reproducida por quien aprende.</p>
+<p>(0:45) Al terminar la ruta se reproducen los resultados del artículo, se interpretan las funciones biológicas (enriquecimiento con g:Profiler) y cada lección incluye retos con su solución para practicar. El mensaje biológico: la diferenciación es parecida en pacientes y controles; lo que cambia es la firma de interferón (que las pacientes traen desde los monocitos y se pierde al diferenciarse) y el metabolismo del colesterol en las tolDC, que se induce menos en lupus. Ciencia real, reproducida por quien aprende.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -554,7 +570,7 @@
       }</style></aside>
 </section>
 <section class="slide level2 oscura" data-background-color="#3D3F8F">
-<h2>¿Y si no programas en R? 🤷🏽‍♀️</h2>
+<h2>¿Y si no programas en R?</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
 <p><a href="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/"><img data-src="img/portada.png" style="width:70.0%" alt="Póster: ¡Explora la Shiny app GeneExprLupusMx!"></a></p>
@@ -562,9 +578,11 @@
 <h3>¡Explora la Shiny app! ✨</h3>
 <p>Los mismos datos, <strong>sin escribir una línea de código</strong>.</p>
 <p><br></p>
+<div class="centrado">
 <p><a href="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/" class="boton amarillo">▶ Abrir la app</a></p>
 <div class="qr" data-url="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/">
 
+</div>
 </div>
 </div></div>
 <aside class="notes">
@@ -586,15 +604,15 @@
 <div class="columns">
 <div class="column medio" style="width:42%;">
 <ul>
-<li><strong>Participantes:</strong> edad, diagnóstico, tratamiento</li>
-<li><strong>Exploración:</strong> PCA, expresión de un gen, <em>heatmaps</em></li>
-<li><strong>Expresión diferencial:</strong> 9 comparaciones, <em>volcano plots</em></li>
-<li><strong>Funciones biológicas:</strong> <em>Manhattan</em> y <em>dot plots</em></li>
+<li><strong>Participantes:</strong> compara controles y pacientes</li>
+<li><strong>Exploración:</strong> agrupa muestras y busca genes</li>
+<li><strong>Expresión diferencial:</strong> 9 comparaciones interpretadas</li>
+<li><strong>Funciones biológicas:</strong> procesos que cambian</li>
 <li><strong>Descargas:</strong> tablas en CSV y figuras en PNG</li>
 <li><strong>Aprende:</strong> cada gráfica enlaza a su lección</li>
 </ul>
 <p><img data-src="img/chibi_reading.png" class="chibi" style="width:55.0%" alt="Chibi de Evelia leyendo un libro"></p>
-</div><div class="column" style="width:58%;">
+</div><div class="column centrado" style="width:58%;">
 <p><a href="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/"><img data-src="img/captura_deg_app.png" class="captura" style="width:100.0%" alt="Captura de la sección de expresión diferencial de la app: volcano plot y número de DEG por comparación"></a></p>
 </div></div>
 <aside class="notes">
@@ -622,6 +640,9 @@
 <li><a href="https://github.com/EveliaCoss/GeneExprLupusMx">Código en GitHub</a></li>
 <li>Siguiendo las guías de <a href="https://ropensci.org/">rOpenSci</a></li>
 </ul>
+<div class="centrado">
+<p><a href="https://eveliacoss.github.io/GeneExprLupusMx/"><img data-src="img/logo_cartoon_3_ajolote.png" style="width:30.0%" alt="Logo de GeneExprLupusMx"></a></p>
+</div>
 </div><div class="column" style="width:50%;">
 <p><strong>✨ Shiny app</strong></p>
 <ul>
@@ -652,7 +673,7 @@
 <section class="slide level2 centrado">
 <h2>¿Cómo puedes sumarte? 🙌</h2>
 
-<img data-src="img/sumate.png" style="width:80.0%" alt="Ilustración: úsalo en tus clases, reporta errores o ideas en GitHub Issues, comparte la app con quien no programa y replica la idea con datos de tu país. Los datos biomédicos de Latinoamérica también pueden ser visibles, reutilizables y enseñables." class="r-stretch"><aside class="notes">
+<img data-src="img/sumate.png" style="width:80.0%" alt="Ilustración: úsalo en tus clases de bioinformática, inmunología o estadística; reporta errores o ideas en GitHub Issues; comparte la app con tu comunidad y replica el análisis con datos de tu país y de Latinoamérica. Explora, analiza y reutiliza datos de expresión génica en lupus (SLE) en Latinoamérica." class="r-stretch"><aside class="notes">
 <p>(0:45) Llamado a la acción. El mensaje que quiero que se lleven: hagamos paquetes de datos de nuestra región.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
