@@ -66,7 +66,7 @@ $presentation-font-size-root: 30px;
 }
 .reveal .ropensci p { margin: 0; }
 .reveal .ropensci img { height: 3.2em; margin: 0; border-radius: 0; }
-.reveal .oscura .ropensci a { color: $marino; text-decoration: none; font-weight: 700; }
+.reveal .ropensci a { color: $marino; text-decoration: none; font-weight: 700; }
 
 // Diferenciación de monocitos (diapositiva "El estudio en números")
 .reveal .dif { display: grid; grid-template-columns: 1fr 1.1fr 1fr; grid-template-rows: 1fr 1fr; align-items: center; font-size: .5em; margin-top: .6em; }
@@ -86,3 +86,12 @@ $presentation-font-size-root: 30px;
 
 // Portada: contenido centrado verticalmente
 .reveal .portada .columns { display: flex; align-items: center; min-height: 560px; }
+.reveal .qr-portada { display: flex; align-items: center; gap: .7em; margin: .5em 0 1em; font-size: .6em; }
+.reveal .qr-portada .qr { padding: 6px; border-radius: 8px; }
+.reveal .qr-portada p { margin: 0; max-width: 11em; }
+.reveal-viewport.en-portada .reveal .footer, .reveal-viewport.en-portada .reveal .footer a { color: $marino; }
+// Portada: margen para no chocar con los íconos del fondo; insignia rOpenSci bajo el logo
+.reveal .portada .columns { padding-left: 80px; }
+.reveal .portada .fuente.izq { left: 80px; }
+.reveal .portada .column:last-child { text-align: center; }
+.reveal .portada .ropensci { position: static; display: inline-flex; margin-top: .4em; }

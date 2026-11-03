@@ -17,11 +17,11 @@ format:
         <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
         <script>
           document.querySelectorAll(".qr").forEach(el =>
-            new QRCode(el, {text: el.dataset.url, width: 220, height: 220, colorDark: "#14164D"}));
+            new QRCode(el, {text: el.dataset.url, width: +(el.dataset.size || 220), height: +(el.dataset.size || 220), colorDark: "#14164D"}));
         </script>
 ---
 
-## {background-color="#3D3F8F" .oscura .portada}
+## {background-image="img/fondo_portada.png" background-size="cover" data-state="en-portada" .portada}
 
 ::: {.columns}
 ::: {.column width="58%"}
@@ -33,24 +33,29 @@ format:
 
 [📦 Paquete](https://eveliacoss.github.io/GeneExprLupusMx/){.boton .blanco} [✨ Shiny app](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.boton .blanco}
 
-<br><br><br><br>
+::: {.qr-portada}
+::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx_LatinR2026_presentacion/GeneExprLupusMx_LatinR2026.html" data-size="165"}
+:::
+
+Escanea y sigue la presentación desde tu celular
+:::
 
 **Evelia Coss** · [eveliacoss.github.io](https://eveliacoss.github.io/)
 :::
 
 ::: {.column width="42%"}
-![](img/logo_GeneExprLupusMx.png){fig-alt="Logo hexagonal de GeneExprLupusMx: un monocito que se diferencia en moDC y tolDC" width="100%"}
-:::
-:::
-
-::: {.pequeno .fuente .izq}
-LatinR 2026 · 11 al 13 Nov 2026 · Universidad de Antioquia, Medellín 🇨🇴
-:::
+![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx: un ajolote abrazando a un monocito, una moDC y una tolDC" width="85%"}
 
 ::: {.ropensci}
 [![](img/ropensci_logo.svg){fig-alt="Logo de rOpenSci"}](https://ropensci.org/)
 
 [Champions<br>Program](https://ropensci.org/champions/)
+:::
+:::
+:::
+
+::: {.pequeno .fuente .izq}
+LatinR 2026 · 11 al 13 Nov 2026 · Universidad de Antioquia, Medellín 🇨🇴
 :::
 
 ::: {.notes}
