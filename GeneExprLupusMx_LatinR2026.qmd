@@ -12,6 +12,12 @@ format:
     link-external-newwindow: true
     footer: "[GeneExprLupusMx](https://eveliacoss.github.io/GeneExprLupusMx/) · LatinR 2026 · Medellín"
     logo: img/logo_cartoon_3_ajolote.png
+    include-in-header:
+      text: |
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+        <link rel="icon" sizes="any" href="img/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     include-after-body:
       text: |
         <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
