@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+// Paleta de overview_promo.png (la misma del sitio pkgdown)
+$primario: #3D3F8F;
+$marino: #14164D;
+$turquesa: #007F99;
+$lavanda: #DFE2FB;
+$amarillo: #F2D77A;
+$crema: #FCF5D9;
+$rosa: #E9A6C4;
+$menta: #A8DCD1;
+
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Poppins:wght@400;600;800&display=swap");
+
+$font-family-sans-serif: "Poppins", sans-serif;
+$presentation-heading-font: "News Cycle", sans-serif;
+$presentation-heading-color: $turquesa;
+$presentation-heading-font-weight: 700;
+$body-color: $marino;
+$link-color: $turquesa;
+$code-color: $turquesa;
+$presentation-font-size-root: 30px;
+
+/*-- scss:rules --*/
+.reveal h2 { border-bottom: 6px solid $turquesa; padding-bottom: .15em; }
+.reveal a { font-weight: 600; text-decoration: underline dotted; }
+
+// Diapositivas de sección con fondo morado
+.reveal .oscura, .reveal .oscura h1, .reveal .oscura h2, .reveal .oscura p { color: white; }
+.reveal .oscura h2 { border-bottom-color: $amarillo; }
+.reveal .oscura a { color: $amarillo; }
+
+// Números grandes
+.cifra { background: $lavanda; border-radius: 18px; padding: .3em .2em; text-align: center; margin: .2em; }
+.cifra .n { display: block; font-size: 2.6em; font-weight: 800; color: $primario; line-height: 1; }
+.cifra .t { font-size: .55em; }
+.cifra.destacada { background: $crema; border: 3px solid $amarillo; }
+
+// Botón-enlace grande (.reveal para ganarle a `.reveal a`)
+.reveal .boton {
+  display: inline-block; background: $primario; color: white !important;
+  padding: .35em .9em; border-radius: 999px; text-decoration: none !important;
+  font-size: .75em; margin: .15em;
+}
+.reveal .boton.amarillo { background: $amarillo; color: $marino !important; }
+
+.etiqueta { background: $crema; border-left: 6px solid $amarillo; padding: .4em .8em; border-radius: 6px; }
+.etiqueta.azul { background: $lavanda; border-left-color: $primario; }
+.pequeno { font-size: .6em; }
+.medio { font-size: .75em; }
+.reveal .abajo { position: absolute; bottom: .5em; left: 0; right: 0; }
+.reveal .fuente { position: absolute; bottom: 0; left: 0; right: 0; text-align: center; }
+.centrado { text-align: center; }
+.qr { display: inline-block; padding: 10px; background: white; border-radius: 12px; }
+
+.reveal blockquote { background: $crema; border-left: 6px solid $amarillo; box-shadow: none; width: 90%; }
+.reveal h2:empty { border: none; }
+.reveal img { border-radius: 12px; }
+.reveal .footer, .reveal .footer a, .reveal .slide-number, .reveal .slide-number a { color: #9AA0C8; background: transparent; }
+
+// Insignia rOpenSci en la esquina inferior derecha de la portada
+.reveal .ropensci {
+  position: absolute; right: 0; bottom: 0; display: flex; align-items: center; gap: .5em;
+  background: white; border-radius: 12px; padding: .3em .7em; font-size: .6em; line-height: 1.15;
+}
+.reveal .ropensci p { margin: 0; }
+.reveal .ropensci img { height: 3.2em; margin: 0; border-radius: 0; }
+.reveal .oscura .ropensci a { color: $marino; text-decoration: none; font-weight: 700; }
+
+// Diferenciación de monocitos (diapositiva "El estudio en números")
+.reveal .dif { display: grid; grid-template-columns: 1fr 1.1fr 1fr; grid-template-rows: 1fr 1fr; align-items: center; font-size: .5em; margin-top: .6em; }
+.reveal .dif .mono { grid-row: 1 / span 2; grid-column: 1; }
+.reveal .dif .cel { text-align: center; }
+.reveal .dif img { width: 100%; margin: 0; border-radius: 0; }
+.reveal .dif .flecha { text-align: center; line-height: 1.1; }
+.reveal .dif .flecha b { font-size: 2.4em; color: $primario; }
+.reveal .dif .nombre { display: inline-block; background: $lavanda; border-radius: 6px; padding: .1em .5em; font-weight: 700; font-size: 1.3em; }
+.reveal .dif .nombre.rosa { background: $rosa; }
+.reveal .dif .nombre.amarilla { background: $amarillo; }
+.reveal .cifras { display: grid; grid-template-columns: repeat(3, 1fr); font-size: .75em; }
+
+// Captura de la app: marco claro para que no se vea oscura
+.reveal img.captura { border: 1px solid $lavanda; box-shadow: 0 4px 16px rgba(20, 22, 77, .15); filter: brightness(1.05); }
+.reveal img.chibi { display: block; margin: .3em auto 0; }
