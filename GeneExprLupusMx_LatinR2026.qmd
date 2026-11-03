@@ -21,7 +21,7 @@ format:
         </script>
 ---
 
-## {background-color="#3D3F8F" .oscura}
+## {background-color="#3D3F8F" .oscura .portada}
 
 ::: {.columns}
 ::: {.column width="58%"}
@@ -31,18 +31,20 @@ format:
 
 #### Datos transcriptómicos de mujeres mexicanas con lupus, un paquete de R y una Shiny app para aprender, explorar y reutilizar
 
-<br>
+[📦 Paquete](https://eveliacoss.github.io/GeneExprLupusMx/){.boton .blanco} [✨ Shiny app](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.boton .blanco}
+
+<br><br><br><br>
 
 **Evelia Coss** · [eveliacoss.github.io](https://eveliacoss.github.io/)
-
-LatinR 2026 · 11 al 13 Nov 2026 · Universidad de Antioquia, Medellín 🇨🇴
-
-[📦 Paquete](https://eveliacoss.github.io/GeneExprLupusMx/){.boton .amarillo} [✨ Shiny app](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.boton .amarillo}
 :::
 
 ::: {.column width="42%"}
 ![](img/logo_GeneExprLupusMx.png){fig-alt="Logo hexagonal de GeneExprLupusMx: un monocito que se diferencia en moDC y tolDC" width="100%"}
 :::
+:::
+
+::: {.pequeno .fuente .izq}
+LatinR 2026 · 11 al 13 Nov 2026 · Universidad de Antioquia, Medellín 🇨🇴
 :::
 
 ::: {.ropensci}

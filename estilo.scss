@@ -42,6 +42,7 @@ $presentation-font-size-root: 30px;
   font-size: .75em; margin: .15em;
 }
 .reveal .boton.amarillo { background: $amarillo; color: $marino !important; }
+.reveal .boton.blanco { background: white; color: $marino !important; }
 
 .etiqueta { background: $crema; border-left: 6px solid $amarillo; padding: .4em .8em; border-radius: 6px; }
 .etiqueta.azul { background: $lavanda; border-left-color: $primario; }
@@ -49,6 +50,7 @@ $presentation-font-size-root: 30px;
 .medio { font-size: .75em; }
 .reveal .abajo { position: absolute; bottom: .5em; left: 0; right: 0; }
 .reveal .fuente { position: absolute; bottom: 0; left: 0; right: 0; text-align: center; }
+.reveal .fuente.izq { text-align: left; }
 .centrado { text-align: center; }
 .qr { display: inline-block; padding: 10px; background: white; border-radius: 12px; }
 
@@ -81,3 +83,6 @@ $presentation-font-size-root: 30px;
 // Captura de la app: marco claro para que no se vea oscura
 .reveal img.captura { border: 1px solid $lavanda; box-shadow: 0 4px 16px rgba(20, 22, 77, .15); filter: brightness(1.05); }
 .reveal img.chibi { display: block; margin: .3em auto 0; }
+
+// Portada: contenido centrado verticalmente
+.reveal .portada .columns { display: flex; align-items: center; min-height: 560px; }
