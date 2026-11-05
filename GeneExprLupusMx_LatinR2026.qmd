@@ -11,7 +11,7 @@ format:
     preview-links: false
     link-external-newwindow: true
     footer: "[GeneExprLupusMx](https://eveliacoss.github.io/GeneExprLupusMx/) · LatinR 2026 · Medellín"
-    logo: img/logo_cartoon_3_ajolote.png
+    logo: img/logo_GeneExprLupusMx_v2.png
     include-in-header:
       text: |
         <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
@@ -50,7 +50,7 @@ Escanea y sigue la presentación desde tu celular
 :::
 
 ::: {.column width="42%"}
-![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx: un ajolote abrazando a un monocito, una moDC y una tolDC" width="85%"}
+![](img/logo_GeneExprLupusMx_v2.png){fig-alt="Logo de GeneExprLupusMx: hexágono morado con una mariposa, un libro abierto y tres células inmunes" width="85%"}
 
 ::: {.ropensci}
 [![](img/ropensci_logo.svg){fig-alt="Logo de rOpenSci"}](https://ropensci.org/)
@@ -327,7 +327,7 @@ No hace falta correr DESeq2 para empezar: los resultados intermedios (de_results
 ::: {.qr-lado}
 Escanea y abre el sitio del paquete
 
-![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx" width="110"}
+![](img/logo_GeneExprLupusMx_v2.png){fig-alt="Logo de GeneExprLupusMx" width="110"}
 :::
 :::
 
@@ -415,7 +415,7 @@ Los mismos datos, **sin escribir una línea de código**.
 - Siguiendo las guías de [rOpenSci](https://ropensci.org/)
 
 ::: {.centrado}
-[![](img/logo_cartoon_3_ajolote.png){fig-alt="Logo de GeneExprLupusMx" width="30%"}](https://eveliacoss.github.io/GeneExprLupusMx/)
+[![](img/logo_GeneExprLupusMx_v2.png){fig-alt="Logo de GeneExprLupusMx" width="30%"}](https://eveliacoss.github.io/GeneExprLupusMx/)
 :::
 :::
 
