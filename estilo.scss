@@ -117,3 +117,24 @@ $presentation-font-size-root: 30px;
 
 // Número de diapositiva abajo a la derecha, junto al logo
 .reveal .slide-number { top: auto !important; bottom: 16px !important; right: 58px !important; }
+
+// Agradecimientos: tarjetas en una cuadrícula de 2 x 2
+.reveal .gracias { display: grid; grid-template-columns: 1fr 1fr; gap: .5em; font-size: .7em; text-align: left; margin: 2.6em 0 .6em; }
+.reveal .gracias .tarjeta { background: $lavanda; border-radius: 18px; padding: .5em .8em; display: flex; align-items: center; gap: .6em; }
+.reveal .gracias .tarjeta p { margin: 0; }
+.reveal .gracias .tarjeta.celeste { background: #CFE9F3; }
+.reveal .gracias .tarjeta.verde { background: $menta; }
+.reveal .gracias .tarjeta img { height: 3.2em; margin: 0; border-radius: 0; }
+.reveal .gracias .tarjeta p:has(img), .reveal .viernes p:has(img) { flex: none; }
+
+// Invitación a los VieRnes de Bioinformática
+.reveal .viernes { display: flex; align-items: center; gap: .8em; background: $crema; border: 3px solid $amarillo; border-radius: 18px; padding: .5em .9em; font-size: .65em; text-align: left; margin-top: .6em; }
+.reveal .viernes p { margin: 0; }
+.reveal .viernes img { height: 4.2em; margin: 0; border-radius: 0; }
+
+// Cierre: invitación a VieRnes + chibi y nombre de la autora
+.reveal .cierre { display: flex; align-items: center; gap: .6em; margin-top: .6em; }
+.reveal .cierre .viernes { flex: 1; margin-top: 0; }
+.reveal .cierre .autora { flex: none; font-size: .5em; line-height: 1.2; }
+.reveal .cierre .autora p { margin: 0; }
+.reveal .cierre .autora img { height: 110px; margin: 0; }

@@ -405,7 +405,7 @@ Los mismos datos, **sin escribir una línea de código**.
 
 ## Ciencia abierta, de verdad 🔓
 
-::: {.columns}
+::: {.columns .medio}
 ::: {.column width="50%"}
 **📦 Paquete**
 
@@ -413,10 +413,6 @@ Los mismos datos, **sin escribir una línea de código**.
 - [DOI 10.5281/zenodo.23751369](https://doi.org/10.5281/zenodo.23751369)
 - [Código en GitHub](https://github.com/EveliaCoss/GeneExprLupusMx)
 - Siguiendo las guías de [rOpenSci](https://ropensci.org/)
-
-::: {.centrado}
-[![](img/logo_GeneExprLupusMx_v2.png){fig-alt="Logo de GeneExprLupusMx" width="30%"}](https://eveliacoss.github.io/GeneExprLupusMx/)
-:::
 :::
 
 ::: {.column width="50%"}
@@ -430,13 +426,24 @@ Los mismos datos, **sin escribir una línea de código**.
 :::
 :::
 
+::: {.columns .centrado}
+::: {.column width="50%"}
+::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx/" data-size="150"}
+:::
+:::
+::: {.column width="50%"}
+::: {.qr data-url="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/" data-size="150"}
+:::
+:::
+:::
+
 ::: {.etiqueta .azul .centrado .medio .abajo}
 **Principios FAIR:** *«Tan abiertos como sea posible, tan cerrados como sea necesario»*<br>
 [Abiertos por defecto: los datos procesados son públicos; los FASTQ, con acceso controlado en EGA]{.pequeno}
 :::
 
 ::: {.notes}
-(0:45) Todo citable y reutilizable. Recordar citar el paquete y también los datos (artículo + Zenodo).
+(0:45) Invitar a escanear los QR del paquete y de la app. Todo citable y reutilizable. Recordar citar el paquete y también los datos (artículo + Zenodo).
 FAIR: datos localizables, accesibles, interoperables y reutilizables. El lema "tan abiertos como sea posible, tan cerrados como sea necesario" (Comisión Europea, Horizonte 2020) resume el equilibrio: abrir por defecto, pero proteger a las participantes. Aquí: los datos procesados están abiertos en Zenodo y en el paquete; los datos crudos de secuenciación (FASTQ) están en EGA con acceso controlado.
 :::
 
@@ -448,42 +455,47 @@ FAIR: datos localizables, accesibles, interoperables y reutilizables. El lema "t
 (0:45) Llamado a la acción. El mensaje que quiero que se lleven: hagamos paquetes de datos de nuestra región.
 :::
 
-## ¡Gracias! 💜 {background-color="#3D3F8F" .oscura .centrado}
+## ¡Gracias! 💜 {.centrado}
 
-::: {.columns}
-::: {.column width="30%"}
-![](img/chibi_love.png){fig-alt="Chibi de Evelia abrazando un corazón" width="100%"}
+::: {.gracias}
+::: {.tarjeta .celeste}
+![](img/ropensci_logo.svg){fig-alt="Logo de rOpenSci"}
 
-::: {.medio}
+A **[rOpenSci](https://ropensci.org/)** y su [Champions Program](https://ropensci.org/champions/), por permitirme **aprender y crecer como campeona**.
+:::
+
+::: {.tarjeta .verde}
+🙌 **A ustedes**, por estar aquí, escuchar y compartir este espacio en LatinR 2026.
+:::
+
+::: {.tarjeta}
+🦋 **A las 33 voluntarias del estudio**, mujeres mexicanas con y sin lupus que donaron sus muestras: sin ellas no habría datos.
+:::
+
+::: {.tarjeta}
+🔓 **Al equipo del estudio**, por hacer **públicos** sus datos y análisis en [Zenodo](https://doi.org/10.5281/zenodo.17742206) con licencia **CC&nbsp;BY&nbsp;4.0**: gracias a eso este paquete existe.
+:::
+:::
+
+::: {.etiqueta .azul .pequeno}
+📄 **El estudio:** [Hernández-Ledesma, Coss-Navarrete *et al.* (2026) *Front. Immunol.* 17:1771959](https://doi.org/10.3389/fimmu.2026.1771959)
+:::
+
+::: {.cierre}
+::: {.viernes}
+[![](img/logo_viernes_bioinfo.png){fig-alt="Logo de VieRnes de Bioinformática"}](https://viernesbioinformatica.github.io/)
+
+**¡Súmate a los [VieRnes de Bioinformática](https://viernesbioinformatica.github.io/)!** 🌎 Abiertos a todo el mundo: participa **como docente** o ven **a aprender**.<br>
+✉️ [ecossnav@gmail.com](mailto:ecossnav@gmail.com) · 🌐 [viernesbioinformatica.github.io](https://viernesbioinformatica.github.io/)
+:::
+
+::: {.autora}
+![](img/chibi_love.png){fig-alt="Chibi de Evelia abrazando un corazón"}
+
 **Evelia Coss**<br>[eveliacoss.github.io](https://eveliacoss.github.io/)
 :::
 :::
 
-::: {.column width="35%"}
-**📦 Paquete**
-
-::: {.qr data-url="https://eveliacoss.github.io/GeneExprLupusMx/"}
-:::
-
-[eveliacoss.github.io/GeneExprLupusMx](https://eveliacoss.github.io/GeneExprLupusMx/){.pequeno}
-:::
-
-::: {.column width="35%"}
-**✨ Shiny app**
-
-::: {.qr data-url="https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/"}
-:::
-
-[eveliacossnav.shinyapps.io/<br>GeneExprLupusMx_shinyapp](https://eveliacossnav.shinyapps.io/GeneExprLupusMx_shinyapp/){.pequeno}
-:::
-:::
-
-<br>
-
-::: {.medio}
-Gracias a las voluntarias del estudio, a [rOpenSci](https://ropensci.org/)<br>y al equipo de [Hernández-Ledesma, Coss-Navarrete *et al.* (2026)](https://doi.org/10.3389/fimmu.2026.1771959)<br>por dejar públicos sus datos en [Zenodo](https://doi.org/10.5281/zenodo.17742206) bajo licencia **CC&nbsp;BY&nbsp;4.0**.
-:::
-
 ::: {.notes}
-(0:30) Agradecer a las voluntarias y al equipo del artículo, que publicó sus datos y análisis en Zenodo con licencia CC BY 4.0: gracias a eso este paquete existe. Dejar esta diapositiva durante las preguntas.
+(0:30) Agradecer a rOpenSci y al programa de Champions, que me permitió aprender y crecer como campeona; a quienes están aquí; a las voluntarias, que donaron sus muestras; y al equipo del artículo, que publicó sus datos y análisis en Zenodo con licencia CC BY 4.0: gracias a eso este paquete existe. Cerrar con la invitación a los VieRnes de Bioinformática: abiertos a todo el mundo, para dar una sesión como docente o para aprender; escribirme al correo. Dejar esta diapositiva durante las preguntas.
 :::
